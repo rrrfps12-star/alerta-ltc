@@ -3,7 +3,7 @@ import os
 import json
 
 # ==== CONFIGURA SOLO ESTA LÍNEA (tu dirección no es secreta) ====
-DIRECCION_LTC = "TU_DIRECCION_LTC_AQUI"
+DIRECCION_LTC = "LKayyShop6r6Sfa7Fmwm6S8HgLZ5A1XRk5"
 # ==================================================================
 
 # Estos dos vienen de los "Secrets" de GitHub, no se escriben aquí
