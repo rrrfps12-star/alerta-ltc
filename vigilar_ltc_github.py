@@ -3,7 +3,7 @@ import os
 import json
 
 # ==== CONFIGURA SOLO ESTA LÍNEA (tu dirección no es secreta) ====
-DIRECCION_LTC = "LKayyShop6r6Sfa7Fmwm6S8HgLZ5A1XRk5"
+DIRECCION_LTC = "TU_DIRECCION_LTC_AQUI"
 # ==================================================================
 
 # Estos dos vienen de los "Secrets" de GitHub, no se escriben aquí
@@ -50,6 +50,9 @@ def main():
         print(mensaje)
     else:
         print(f"Sin cambios. Balance actual: {balance_actual / 1e8:.8f} LTC")
+
+    # Latido: manda un punto para confirmar que el sistema sigue corriendo
+    enviar_telegram(".")
 
     guardar_balance(balance_actual)
 
